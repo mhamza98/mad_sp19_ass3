@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image"
+    tools:context=".editdetails">
+
+    <ImageButton
+        android:id="@+id/editimageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="475dp"
+        android:background="@drawable/back_image"
+        app:srcCompat="@drawable/signup1" />
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="419dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editfname"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="419dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Father Name" />
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="364dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone"/>
+
+    <EditText
+        android:id="@+id/editdob"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="364dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="D.O.B (dd/mm/yy)"/>
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="244dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress" />
+
+    <RadioGroup
+        android:id="@+id/editgender"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="174dp">
+
+        <RadioButton
+            android:id="@+id/editmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/editfemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gender"
+            android:text="Female" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/editdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="113dp"
+        android:background="#6ba1ff"
+        android:text="Edit Changes"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Genders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="193dp"
+        android:text="Gender"
+        android:textSize="18dp" />
+
+</RelativeLayout>
